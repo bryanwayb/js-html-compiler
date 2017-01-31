@@ -1,0 +1,33 @@
+{
+  "name": "js-html-compiler",
+  "version": "0.4.1",
+  "description": "JavaScript template compiler",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node ./node_modules/nodeunit/bin/nodeunit --reporter nested ./test/test.js && node ./test/check.js",
+    "fix": "node ./test/check.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanwayb/js-html-compiler.git"
+  },
+  "keywords": [
+    "js-html",
+    "jshtml",
+    "template",
+    "compiler"
+  ],
+  "author": "Bryan Way",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryanwayb/js-html-compiler/issues"
+  },
+  "homepage": "https://github.com/bryanwayb/js-html-compiler#readme",
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "minimist": "^1.2.0",
+    "nodeunit": "^0.10.2"
+  }
+}
