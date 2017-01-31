@@ -27,7 +27,6 @@
     "colors": "^1.1.2",
     "jscs": "^3.0.7",
     "jshint": "^2.9.4",
-    "minimist": "^1.2.0",
-    "nodeunit": "^0.10.2"
+    "minimist": "^1.2.0"
   }
 }
